@@ -142,7 +142,7 @@ footer {
   text-align: center;
   padding: 10px;
   position: absolute;
-  /* display: relative; */
+  display: fixed;
   background-color: #010f42;
   color: #fff;
   left: 0;
