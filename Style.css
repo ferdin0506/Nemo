@@ -7,13 +7,16 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: url("img/bacgraund.png");
+  background: url("img/bacgraund.png") center;
   background-size: cover; /* Gambar mengisi seluruh area */
   background-position: center;
-  padding: 1000px 50px;
+  backg
+  /* background-repeat: no-repeat; */
+  height: 100%;
+  /* padding: 1000px 50px; */
   text-align: center;
   color: #0a0303;
-  padding: 10px;
+  /* padding: 10px; */
 }
 /* Header */
 header {
@@ -98,7 +101,7 @@ nav ul li a:hover {
 /* Contact Form */
 .contact-form {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 10% 20%;
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -138,10 +141,16 @@ nav ul li a:hover {
 footer {
   text-align: center;
   padding: 10px;
+  position: absolute;
+  /* display: relative; */
   background-color: #010f42;
   color: #fff;
-  margin-top: 50%;
+  left: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
 }
+
 /* Styling untuk header */
 header {
   display: flex;
